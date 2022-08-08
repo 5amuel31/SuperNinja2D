@@ -1,0 +1,58 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+    
+    .button {
+        display: inline-block;
+        padding: 15px 23px;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: center;	
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #d13538;
+        border: none;
+        border-radius: 15px;
+        margin-left: 10px;
+        
+      }
+
+      .titulo {
+        font-size: 22px;
+        padding: 15px 23px;
+        text-align: center;	
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #d13538;
+        border-radius: 15px;
+        border: none;
+        font-family: sans-serif;
+        margin-left: 10px;
+      }
+      
+      .button:hover {background-color: #521415}
+      
+      .button:active {
+        background-color: #d13538;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+      .tudo {
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-left: 450px;
+        position: absolute;
+      }
+
+      .background {
+        background-image: url("html/img/telinha.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    

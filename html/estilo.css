@@ -1,0 +1,37 @@
+body,html{
+height: 100%;
+margin: 0;
+}
+
+.bg{
+    background-image: url("img/fundao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 23px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d13538;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    
+  }
+  
+  .button:hover {background-color: #521415}
+  
+  .button:active {
+    background-color: #d13538;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
